@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="GDRTabs.LoginFunctionality">
+      <class name="com.gdr.qa.testCases.UserPageTests">
         <methods>
-          <include name="LoginBlankdata"/>
-          <include name="CheckInvalidEmailId"/>
+          <include name="setUp"/>
+          <include name="InviteAdmin"/>
           <include name="tearDown"/>
-          <include name="LoginwithValidData"/>
-          <include name="Login"/>
-          <include name="CheckValidEmailId"/>
-          <include name="setup"/>
-          <include name="LoginBlankUsername"/>
-          <include name="getResult"/>
         </methods>
-      </class> <!-- GDRTabs.LoginFunctionality -->
+      </class> <!-- com.gdr.qa.testCases.UserPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

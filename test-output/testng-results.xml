@@ -1,116 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-22T16:21:28 IST" name="Default suite" finished-at="2020-03-22T16:24:11 IST" duration-ms="163168">
+  <suite started-at="2020-10-12T07:09:42Z" name="Default suite" finished-at="2020-10-12T07:10:42Z" duration-ms="59911">
     <groups>
     </groups>
-    <test started-at="2020-03-22T16:21:28 IST" name="Default test" finished-at="2020-03-22T16:24:11 IST" duration-ms="163168">
-      <class name="GDRTabs.LoginFunctionality">
-        <test-method is-config="true" signature="setup()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:20:09 IST" name="setup" finished-at="2020-03-22T16:21:28 IST" duration-ms="78667" status="PASS">
+    <test started-at="2020-10-12T07:09:42Z" name="Default test" finished-at="2020-10-12T07:10:42Z" duration-ms="59911">
+      <class name="com.gdr.qa.testCases.UserPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gdr.qa.testCases.UserPageTests@156b88f5]" started-at="2020-10-12T12:39:42Z" name="setUp" finished-at="2020-10-12T12:40:14Z" duration-ms="31880" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:21:28 IST" name="Login" finished-at="2020-03-22T16:22:06 IST" duration-ms="37991" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="InviteAdmin()[pri:0, instance:com.gdr.qa.testCases.UserPageTests@156b88f5]" started-at="2020-10-12T12:40:14Z" name="InviteAdmin" finished-at="2020-10-12T12:40:42Z" duration-ms="28014" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="CheckInvalidEmailId()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:06 IST" name="CheckInvalidEmailId" finished-at="2020-03-22T16:22:06 IST" duration-ms="228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckInvalidEmailId -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:06 IST" name="getResult" finished-at="2020-03-22T16:22:07 IST" duration-ms="1125" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CheckInvalidEmailId status=SUCCESS method=LoginFunctionality.CheckInvalidEmailId()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:07 IST" name="Login" finished-at="2020-03-22T16:22:30 IST" duration-ms="23141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="CheckValidEmailId()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:30 IST" name="CheckValidEmailId" finished-at="2020-03-22T16:22:30 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckValidEmailId -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:30 IST" name="getResult" finished-at="2020-03-22T16:22:31 IST" duration-ms="904" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CheckValidEmailId status=SUCCESS method=LoginFunctionality.CheckValidEmailId()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:22:31 IST" name="Login" finished-at="2020-03-22T16:23:07 IST" duration-ms="35547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="LoginBlankUsername()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:07 IST" name="LoginBlankUsername" finished-at="2020-03-22T16:23:08 IST" duration-ms="1032" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginBlankUsername -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:08 IST" name="getResult" finished-at="2020-03-22T16:23:09 IST" duration-ms="879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginBlankUsername status=SUCCESS method=LoginFunctionality.LoginBlankUsername()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:09 IST" name="Login" finished-at="2020-03-22T16:23:40 IST" duration-ms="31516" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="LoginBlankdata()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:40 IST" name="LoginBlankdata" finished-at="2020-03-22T16:23:40 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginBlankdata -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:40 IST" name="getResult" finished-at="2020-03-22T16:23:41 IST" duration-ms="936" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginBlankdata status=SUCCESS method=LoginFunctionality.LoginBlankdata()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:23:41 IST" name="Login" finished-at="2020-03-22T16:24:09 IST" duration-ms="28033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="LoginwithValidData()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:24:09 IST" name="LoginwithValidData" finished-at="2020-03-22T16:24:10 IST" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginwithValidData -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:24:10 IST" name="getResult" finished-at="2020-03-22T16:24:11 IST" duration-ms="962" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginwithValidData status=SUCCESS method=LoginFunctionality.LoginwithValidData()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GDRTabs.LoginFunctionality@75329a49]" started-at="2020-03-22T16:24:11 IST" name="tearDown" finished-at="2020-03-22T16:24:11 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- InviteAdmin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.gdr.qa.testCases.UserPageTests@156b88f5]" started-at="2020-10-12T12:40:42Z" name="tearDown" finished-at="2020-10-12T12:40:42Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- GDRTabs.LoginFunctionality -->
+      </class> <!-- com.gdr.qa.testCases.UserPageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
